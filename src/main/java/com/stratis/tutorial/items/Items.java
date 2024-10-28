@@ -10,10 +10,11 @@ import static com.stratis.tutorial.TutorialMain.MODID;
 
 public class Items
 {
-     static String name;
+     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
 
-     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
-     public static final RegistryObject<Item> TUTORIAL_INGOT = ITEMS.register(name ="tutorial_ingot" , () -> new SimpleItems(name));
+     public static final RegistryObject<Item> TUTORIAL_INGOT = ITEMS.register("tutorial_ingot" , SimpleItems::new);
+     public static final RegistryObject<Item> TUTORIAL_NUGGET = ITEMS.register("tutorial_nugget" , SimpleItems::new);
+     public static final RegistryObject<Item> RAW_TUTORIAL = ITEMS.register("raw_tutorial" , SimpleItems::new);
 
      public Items() {}
 
