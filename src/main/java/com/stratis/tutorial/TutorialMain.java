@@ -8,7 +8,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod(TutorialMain.MODID)
 public class TutorialMain
 {
-     public static final String MODID = "tutorial_forge";
+     public static final String MODID = "tutorial";
 
      public TutorialMain()
      {
