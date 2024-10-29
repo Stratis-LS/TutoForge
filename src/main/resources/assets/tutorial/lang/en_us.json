@@ -1,5 +1,9 @@
 {
   "item.tutorial.tutorial_ingot": "Tutorial Ingot",
   "item.tutorial.tutorial_nugget": "Tutorial Nugget",
-  "item.tutorial.raw_tutorial": "Raw Tutorial"
+  "item.tutorial.raw_tutorial": "Raw Tutorial",
+
+  "block.tutorial.tutorial_block": "Block of Tutorial",
+  "block.tutorial.tutorial_bricks": "Tutorial Bricks",
+  "block.tutorial.raw_tutorial_block": "Block of Raw Tutorial"
 }

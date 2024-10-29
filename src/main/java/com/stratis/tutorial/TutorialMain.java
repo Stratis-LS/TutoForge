@@ -1,5 +1,6 @@
 package com.stratis.tutorial;
 
+import com.stratis.tutorial.blocks.Blocks;
 import com.stratis.tutorial.items.Items;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,5 +18,6 @@ public class TutorialMain
           MinecraftForge.EVENT_BUS.register(this);
 
           Items.register(modEventBus);
+          Blocks.register(modEventBus);
      }
 }
