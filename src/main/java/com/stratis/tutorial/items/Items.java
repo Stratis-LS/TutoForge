@@ -12,9 +12,9 @@ public class Items
 {
      public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
 
-     public static final RegistryObject<Item> TUTORIAL_INGOT = ITEMS.register("tutorial_ingot" , SimpleItems::new);
-     public static final RegistryObject<Item> TUTORIAL_NUGGET = ITEMS.register("tutorial_nugget" , SimpleItems::new);
-     public static final RegistryObject<Item> RAW_TUTORIAL = ITEMS.register("raw_tutorial" , SimpleItems::new);
+     public static final RegistryObject<Item> TUTORIAL_INGOT = ITEMS.register("tutorial_ingot" , () -> new SimpleItems(new Item.Properties()));
+     public static final RegistryObject<Item> TUTORIAL_NUGGET = ITEMS.register("tutorial_nugget" , () -> new SimpleItems(new Item.Properties()));
+     public static final RegistryObject<Item> RAW_TUTORIAL = ITEMS.register("raw_tutorial" , () -> new SimpleItems(new Item.Properties()));
 
      public Items() {}
 

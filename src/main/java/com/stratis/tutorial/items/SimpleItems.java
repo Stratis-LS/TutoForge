@@ -4,8 +4,8 @@ import net.minecraft.world.item.Item;
 
 public class SimpleItems extends Item
 {
-     public SimpleItems()
+     public SimpleItems(Properties properties)
      {
-          super(new Item.Properties());
+          super(properties);
      }
 }
