@@ -1,7 +1,9 @@
 package com.stratis.tutorial;
 
 import com.stratis.tutorial.blocks.Blocks;
+import com.stratis.tutorial.gui.CreativeModeTabs;
 import com.stratis.tutorial.items.Items;
+
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -17,6 +19,7 @@ public class TutorialMain
           IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
           MinecraftForge.EVENT_BUS.register(this);
 
+          CreativeModeTabs.register(modEventBus);
           Items.register(modEventBus);
           Blocks.register(modEventBus);
      }

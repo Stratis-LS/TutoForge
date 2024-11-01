@@ -5,5 +5,8 @@
 
   "block.tutorial.tutorial_block": "Block of Tutorial",
   "block.tutorial.tutorial_bricks": "Tutorial Bricks",
-  "block.tutorial.raw_tutorial_block": "Block of Raw Tutorial"
+  "block.tutorial.raw_tutorial_block": "Block of Raw Tutorial",
+
+  "creative_mode_tab.tutorial_tab_items": "Tutorial Tab - ITEMS -",
+  "creative_mode_tab.tutorial_tab_blocks": "Tutorial Tab - BLOCKS -"
 }
